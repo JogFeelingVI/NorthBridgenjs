@@ -126,16 +126,7 @@ export default function App() {
     const eightChar = lunar.getEightChar();
     
     const yearGZ = eightChar.getYear();
-    
-    // Smart Bazi Month Transition Auto-detection on JieQi days
-    // If a monthly transition occurs today (e.g., Mangzhong), we prefer the incoming month
-    const solarEnd = Solar.fromYmdHms(y, m, d, 23, 50, 0);
-    const lunarEnd = solarEnd.getLunar();
-    const eightCharEnd = lunarEnd.getEightChar();
-    const mNoon = eightChar.getMonth();
-    const mEnd = eightCharEnd.getMonth();
-    const monthGZ = mNoon !== mEnd ? mEnd : mNoon;
-    
+    const monthGZ = eightChar.getMonth();
     const dayGZ = eightChar.getDay();
 
     const prompt = generateAIReportPrompt(profile, {
@@ -516,7 +507,7 @@ export default function App() {
             )}
           </div>
 
-          <span>BUILD_REV: 20260604.1336</span>
+          <span>BUILD_REV: 20260604.1351</span>
         </footer>
 
         {/* Prompt Modal */}

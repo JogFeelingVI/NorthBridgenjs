@@ -26,8 +26,8 @@ A sophisticated web application combining professional celestial mapping with Ba
 
 ## 📜 Version History & Updates
 
-### BUILD_REV: 20260604.1336 (Latest)
-- **节气交节转换修正 (Bazi Monthly Transition Fix)**: 修复了在预测日期（如2026年6月5日芒种交节日）由于时间处于交节时刻前导致月份干支计算错误的Bug。新增交节日智能自动检测机制，确保交节当日的推算无缝体现新月的能量（如2026/06/05正确推算为甲午月）；
+### BUILD_REV: 20260604.1351 (Latest)
+- **标准八字算法恢复 (Standard Bazi Restored)**: 恢复标准的干支纪时算法，回归传统时刻界分逻辑。
 
 ### BUILD_REV: 20260604.0034
 - **命理分析提示词重构 (Prompt Refactoring)**: 结合了严格的推理逻辑机制 (Chain of Thought - Step 1, Step 2)；
