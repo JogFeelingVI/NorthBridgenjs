@@ -26,6 +26,12 @@ A sophisticated web application combining professional celestial mapping with Ba
 
 ## 📜 Version History & Updates
 
+### BUILD_REV: 20260604.0034 (Latest)
+- **命理分析提示词重构 (Prompt Refactoring)**: 结合了严格的推理逻辑机制 (Chain of Thought - Step 1, Step 2)；
+- **全天流时打分改进 (Hourly Score Table)**: 强制约束大语言模型输出二十四小时流时运势评分表格，杜绝所有时辰分数雷同，确保干支五行波动的真实性；
+- **核心避险与开运 (Risk Controls & Orientation advice)**: 支持动态融合并检测日柱天克地冲与日支支神相刑，并输出对应的风控预警信息；
+- **参数支持扩展 (Parameters Extended)**: 补充传入原局四柱年支、日支、时支、年干、日干、时干等高精维度变量，确保大语言模型能完美定位生克合化。
+
 ### BUILD_REV: 20260507.0716 (Latest)
 - **Header Optimization**: Relocated "Local Epoch" and "Chronos Alignment" to the main header for instant visibility.
 - **Bazi Styling**: Implemented specialized golden text for Bazi pillars in the HUD.
