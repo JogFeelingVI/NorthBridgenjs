@@ -26,7 +26,10 @@ A sophisticated web application combining professional celestial mapping with Ba
 
 ## 📜 Version History & Updates
 
-### BUILD_REV: 20260604.0034 (Latest)
+### BUILD_REV: 20260604.1336 (Latest)
+- **节气交节转换修正 (Bazi Monthly Transition Fix)**: 修复了在预测日期（如2026年6月5日芒种交节日）由于时间处于交节时刻前导致月份干支计算错误的Bug。新增交节日智能自动检测机制，确保交节当日的推算无缝体现新月的能量（如2026/06/05正确推算为甲午月）；
+
+### BUILD_REV: 20260604.0034
 - **命理分析提示词重构 (Prompt Refactoring)**: 结合了严格的推理逻辑机制 (Chain of Thought - Step 1, Step 2)；
 - **全天流时打分改进 (Hourly Score Table)**: 强制约束大语言模型输出二十四小时流时运势评分表格，杜绝所有时辰分数雷同，确保干支五行波动的真实性；
 - **核心避险与开运 (Risk Controls & Orientation advice)**: 支持动态融合并检测日柱天克地冲与日支支神相刑，并输出对应的风控预警信息；
