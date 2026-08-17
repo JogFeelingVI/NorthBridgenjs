@@ -133,8 +133,10 @@ export default function App() {
       year: y,
       month: m,
       day: d,
-      nongli_str: `${yearGZ}年 ${monthGZ}月 ${dayGZ}日`,
-      currentDayPillar: dayGZ
+      currentYearPillar: yearGZ,
+      currentMonthPillar: monthGZ,
+      currentDayPillar: dayGZ,
+      nongli_str: `${yearGZ}年 ${monthGZ}月 ${dayGZ}日`
     });
     setGeneratedPrompt(prompt);
     setShowBaziModal(true);
@@ -507,7 +509,7 @@ export default function App() {
             )}
           </div>
 
-          <span>BUILD_REV: 20260604.1351</span>
+          <span>BUILD_REV: 20260817.0035</span>
         </footer>
 
         {/* Prompt Modal */}

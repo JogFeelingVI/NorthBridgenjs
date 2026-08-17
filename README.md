@@ -26,7 +26,14 @@ A sophisticated web application combining professional celestial mapping with Ba
 
 ## 📜 Version History & Updates
 
-### BUILD_REV: 20260604.1351 (Latest)
+### BUILD_REV: 20260817.0035 (Latest)
+- **子平命理大模型提示词升级 (Prompt Template Upgrade)**:
+  - 规范并统一为五大核心标准板块架构（CoT 命局推演与流日气场简析、今日运势总评与综合评分、分级风控与择吉时辰、开运指南、24小时流时评分与判词表）；
+  - 新增四柱十神与藏干主气/羊刃自动解析引擎（如 `辛金劫财 / 酉金羊刃`、`子水伤官`、`甲木偏财` 等）；
+  - 自动依据流日日干生成五鼠遁日诀口诀及流时干支对照表；
+  - 强化风控规避（核心正冲、重度刑害）与喜用神生助择吉机制。
+
+### BUILD_REV: 20260604.1351
 - **标准八字算法恢复 (Standard Bazi Restored)**: 恢复标准的干支纪时算法，回归传统时刻界分逻辑。
 
 ### BUILD_REV: 20260604.0034
