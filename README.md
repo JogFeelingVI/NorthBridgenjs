@@ -26,7 +26,11 @@ A sophisticated web application combining professional celestial mapping with Ba
 
 ## 📜 Version History & Updates
 
-### BUILD_REV: 20260817.0104 (Latest)
+### BUILD_REV: 20260903.0655 (Latest)
+- **提示词精简 (Prompt Optimization)**:
+  - 移除了 24 小时流时精算评分表中的「简要吉凶判词 (15字以内)」字段，精简表格结构，聚焦于流时运势得分与重点避忌/行动建议。
+
+### BUILD_REV: 20260817.0104
 - **子平八字命理精算师提示词升级 (Bazi Actuary Prompt v2.1)**:
   - 角色重塑为「资深传统子平八字命理学家与运势精算师」；
   - 强化核心执行规则：去偏见推演、夜子时标准排盘、分数数学自洽约束（总评分数与13个时辰加权均分误差≤±5分）、反疲劳与深度生成约束（杜绝时辰判词雷同与后半段敷衍）；
