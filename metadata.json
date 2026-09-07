@@ -2,5 +2,7 @@
   "name": "Celestial Compass",
   "description": "Astronomical tracking for any location: Real-time sun/moon positions, sunrise/sunset times, and a 8-direction compass based on true north.",
   "requestFramePermissions": ["geolocation"],
-  "majorCapabilities": []
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
