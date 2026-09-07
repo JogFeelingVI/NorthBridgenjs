@@ -509,7 +509,7 @@ export default function App() {
             )}
           </div>
 
-          <span>BUILD_REV: 20260903.0655</span>
+          <span>BUILD_REV: 20260907.0810</span>
         </footer>
 
         {/* Prompt Modal */}
