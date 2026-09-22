@@ -124,6 +124,10 @@ export function getPillarDescription(dayMaster: string, pillar: string, isDayPil
 }
 
 export const AI_PROMPT_TEMPLATE = `
+**今日日期**：{year}年{month}月{day}日（{nongli_str}）
+
+---
+
 # Role: 资深传统子平八字命理学家与运势精算师
 
 ## Setup & Rules (命理推演引擎与算法约束):
@@ -270,8 +274,10 @@ export function generateAIReportPrompt(
   const currentYearPillar = currentDateData.currentYearPillar || '丙午';
   const currentMonthPillar = currentDateData.currentMonthPillar || '丙申';
   const currentDayPillar = currentDateData.currentDayPillar || '甲子';
+  const zao = profile.gender === '女' ? '坤造' : '乾造';
 
   const placeholders: Record<string, string> = {
+    zao,
     gender: profile.gender,
     yearPillar: profile.year,
     yearPillarDesc: getPillarDescription(dayMaster, profile.year),

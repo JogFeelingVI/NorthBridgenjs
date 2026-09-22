@@ -19,7 +19,8 @@ A sophisticated web application combining professional celestial mapping with Ba
 
 点击 Bazi Profile 面板中的 **`Gen Prompt`** 按钮，系统将根据用户输入的命主原局、大运信息与选定预测日期的流日干支，自动组装并生成遵循正统子平命理推演规范的结构化 AI 提示词。
 
-### 1. 角色定位 (Persona)
+### 1. 角色定位与首行元数据 (Persona & Top Metadata)
+- **首行置顶元数据**：提示词首行通过 Markdown 规范输出 `**今日日期**：{year}年{month}月{day}日（{nongli_str}）` 并附带 Markdown 分割线 `---`，清晰规范标识预测流日。
 - **资深传统子平八字命理学家与运势精算师**：严谨依托旺衰、格局、调候、十神意向及干支刑冲破害会合进行因果链条推演，拒绝玄虚宿命论断语，注重逻辑自洽与行动风控。
 
 ### 2. 四大核心执行规则 (Core Execution Rules)
